@@ -36,6 +36,15 @@
   - 보안 이슈가 있으면 `security-reviewer` agent 실행
   - independent 한 작업은 병렬 실행 권장
 
+## 테스트 요구 사항
+
+- **최소 80% 커버리지** 필수 (상세: /home/guru/.claude/rules/ecc/common/testing.md 참조)
+- **TDD 의무화**: 테스트 먼저 작성 후 구현 (상세: /home/guru/.claude/rules/ecc/common/testing.md 참조)
+- **3대 테스트 필수**: 유닛, 통합, E2E 테스트 모두 반드시 포함 (상세: /home/guru/.claude/rules/ecc/common/testing.md 참조)
+
+> **상세 가이드**: [/home/guru/.claude/rules/ecc/common/testing.md](../common/testing.md)
+> 프로젝트별 예외사항은 이 파일을 수정하세요.
+
 ## Git
 
 - 커밋 메시지는 Conventional Commits 형식을 따릅니다: `<type>: <description>`
